@@ -18,6 +18,7 @@ fn part_1_hello_world() {
     hello_world::formatting_mod::formatting_example_color();
 }
 
-fn part_2_primitives() {
-    p2_primitives::literals_and_operators::main()
+fn part_2_primitives(){
+    p2_primitives::literals_and_operators::main();
+    p2_primitives::tuples_mod::main()
 }

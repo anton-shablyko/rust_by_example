@@ -1,5 +1,6 @@
 // https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html
 // This structure can't be printed with either `fmt::Display` or with `fmt::Debug`
+#[allow(dead_code)]
 struct UnPrintable(i32);
 
 // The `derive` attribute automatically creates the implementation
