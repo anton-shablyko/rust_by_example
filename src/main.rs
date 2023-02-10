@@ -20,5 +20,6 @@ fn part_1_hello_world() {
 
 fn part_2_primitives(){
     p2_primitives::literals_and_operators::main();
-    p2_primitives::tuples_mod::main()
+    p2_primitives::tuples_mod::main();
+    p2_primitives::arrays_and_slices::main();
 }
