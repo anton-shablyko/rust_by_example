@@ -1,5 +1,5 @@
-mod p1_hello_world;  // https://doc.rust-lang.org/stable/rust-by-example/hello.html
-mod p2_primitives;  //https://doc.rust-lang.org/stable/rust-by-example/primitives.html
+mod p1_hello_world; // https://doc.rust-lang.org/stable/rust-by-example/hello.html
+mod p2_primitives; //https://doc.rust-lang.org/stable/rust-by-example/primitives.html
 mod p3_custom_types;
 
 fn main() {
@@ -19,12 +19,13 @@ fn part_1_hello_world() {
     p1_hello_world::formatting_mod::formatting_example_color();
 }
 #[allow(dead_code)]
-fn part_2_primitives(){
+fn part_2_primitives() {
     p2_primitives::literals_and_operators::main();
     p2_primitives::tuples_mod::main();
     p2_primitives::arrays_and_slices::main();
 }
 
-fn part_3_custom_types(){
-    p3_custom_types::structures::main();
+fn part_3_custom_types() {
+    // p3_custom_types::structures::main();
+    p3_custom_types::enums::main();
 }
